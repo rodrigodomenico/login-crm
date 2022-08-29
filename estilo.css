@@ -1,0 +1,247 @@
+.degrade {
+    font-family: 'Monaco';
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(img/background.webp);
+    background-repeat:unset;
+    background-size: cover;
+
+        
+  }
+
+.card {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      backdrop-filter: blur(10px);
+      border-radius: 11px;
+      border: solid rgba(255, 255, 255, 0.089);
+      box-shadow: 0 0 25px rgb(0 0 0 / 30%);
+      background-color: rgba(255, 255, 255, 0.055);
+      margin-top: 20%;
+
+    }	  
+    .card-cadastro {
+      position: relative;
+      width: 300px;
+      height: 600px;
+      backdrop-filter: blur(10px);
+      border-radius: 11px;
+      border: solid rgba(255, 255, 255, 0.089);
+      box-shadow: 0 0 25px rgb(0 0 0 / 30%);
+      background-color: rgba(255, 255, 255, 0.055);
+
+    }	  
+                
+                              
+             
+.img-bx {
+      position: absolute;
+      top: 5px;
+      width: 400px;
+      left: -55px;	
+      height:100%;
+      border-radius: 20px;
+      overflow: hidden;
+      transform: translateY(10px) scale(0.5);
+      transform-origin: top; 
+      }
+
+.img-bx img {
+      position: absolute;
+      top: 73px;
+      width: 100%;
+      object-fit: cover;
+      }
+
+.content {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 30px;
+      margin-left: -4px;
+      }
+
+.content .detail {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      }
+
+.content .detail h2 {
+      color: #444;
+      font-size: 1.6em;
+      font-weight: bolder;
+
+      }
+
+.content .detail h2 span {
+      font-size: 0.7em;
+      color: #143F6B;
+      font-weight: bold;
+      }
+
+.sci {
+      position: relative;
+      display: flex;
+      margin-top: 5px;
+      margin-right: 30px;
+      font-family: 'Arial';
+      width: auto;
+      height: 45px;	
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 30px;
+      border: solid rgba(255, 255, 255, 0.089);
+      background: transparent;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      box-shadow: 0 0px 20px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      transition: 0.5s;
+      padding-left: 4px;
+      cursor: pointer;
+      left: 17px;
+      }
+
+
+.sci:hover{
+      background: #00000060;background-position: right center;
+      
+      }
+
+.box{
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 15px;
+      width: 20%;
+      
+      }
+      fieldset{
+      border: 10px solid dodgerblue;
+      }
+      legend{
+      border: 20px solid dodgerblue;
+      padding: 10px;
+      text-align: center;
+      background-color: dodgerblue;
+      border-radius: 8px;
+      }
+.inputBox{
+      position: relative;
+      transition: 0.7s;
+      color: #fff;
+      }
+.inputUser{
+      font-family: 'Times New Roman, Times, serif';
+      height: 40px;
+      border: 1px;
+      border-radius: 15px;  
+      border: solid rgba(255, 255, 255, 0.089);
+      background: transparent;
+      outline: 1PX;
+      color: rgb(255, 255, 255);
+      box-shadow: 0 0px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      font-size: 15px;
+      width: 100%;
+      letter-spacing: 1px;
+      padding-left: 6px;
+      justify-content: none;
+      }
+.labelInput{
+      position: absolute;
+      top: 16px;
+      left: 13px;
+      pointer-events: none;
+      transition: .6s;
+      }
+.inputUser:focus ~ .labelInput,
+  .inputUser:valid ~ .labelInput{
+      top: -15px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0);
+      
+      
+      }
+      
+.md_checkbox {
+       font-family: 'Times New Roman, Times, serif';
+       font-weight: bold;
+      }
+  
+      .redfinir-senha{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 10px;
+      }
+
+      .redfinir-senha:hover{
+        text-decoration: underline;
+       color: #ffffff;background-position: right center;
+      }
+
+      .conteudo{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+      }
+
+
+      .card-2 {
+        position: relative;
+        display: flex;
+        top: 10px;
+        width: 257px;
+        backdrop-filter: blur(10px);
+        border-radius: 11px;
+        background: #fff;
+        border: solid rgba(255, 255, 255, 0.089);
+        box-shadow: 0 0 25px rgb(0 0 0 / 30%);
+        background-color: rgba(255, 255, 255, 0.055);
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        justify-content: center;
+        margin-bottom: 30px;
+                  }
+                  
+      .card-2 a{
+        text-decoration: none;
+        color:rgb(61, 172, 236)
+      }            
+
+      .card-2 a:hover{
+        text-decoration: underline;
+      }
+
+      .btlogar{
+            margin-bottom: 10px;
+            align-content: flex-start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        
+      }

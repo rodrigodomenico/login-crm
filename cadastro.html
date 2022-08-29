@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <title>Tela de Login - CRM</title>
+  </head>
+  <body class="degrade">
+    <div id="login" class="conteudo">
+      <div class="card-cadastro">
+        <div class="img-bx">
+          <img src="img/login-3.png" alt="Logo lydians" />
+        </div>
+        <div class="content">
+          <div class="detail">
+            <form method="post" action="">
+              <div class="inputBox">
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  class="inputUser"
+                  required="required"
+                  onkeypress="$(this).mask('00.000.000/0000-00')"
+                />
+                <label for="nome" class="labelInput">CNPJ</label>
+              </div>
+              <br />
+              <div class="inputBox">
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  class="inputUser"
+                  required="required"
+                />
+                <label for="nome" class="labelInput">Nome</label>
+              </div>
+              <br />
+              <div class="inputBox">
+                <input
+                  type="email"
+                  name="nome"
+                  id="nome"
+                  class="inputUser"
+                  required="required"
+                />
+                <label for="nome" class="labelInput">E-mail</label>
+              </div>
+              <br />
+              <div class="inputBox">
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  class="inputUser"
+                  required="required"
+                />
+                <label for="nome" class="labelInput">Usuário</label>
+              </div>
+              <br />
+              <div class="inputBox">
+                <input
+                  type="password"
+                  name="nome"
+                  id="nome"
+                  class="inputUser"
+                  required="required"
+                />
+                <label for="nome" class="labelInput">Senha</label>
+              </div>
+              <br />
+              <div>
+                <label class="redfinir-senha">
+                  <input type="checkbox" required="required" id="termo" /><a
+                    class="redfinir-senha"
+                    href=""
+                    >Aceito os termos de uso</a
+                  ></label
+                >
+              </div>
+              <br />
+              <div class="btlogar">
+                <button class="sci" type="submit">Cadastre-se</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="card-2">
+        Tem uma conta? <a href="index.html">Conecte-se</a>
+      </div>
+    </div>
+  </body>
+</html>
