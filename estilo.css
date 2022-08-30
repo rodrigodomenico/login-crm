@@ -25,6 +25,9 @@
       margin-top: 20%;
 
     }	  
+    .card-3{
+      width: 347px;
+    }
     .card-cadastro {
       position: relative;
       width: 300px;
@@ -159,10 +162,10 @@
       color: rgb(255, 255, 255);
       box-shadow: 0 0px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       font-size: 15px;
-      width: 100%;
+      width: 96%;
       letter-spacing: 1px;
-      padding-left: 6px;
       justify-content: none;
+      padding-left: 11px;
       }
 .labelInput{
       position: absolute;
@@ -188,7 +191,7 @@
       .redfinir-senha{
         text-decoration: none;
         color: #fff;
-        margin-left: 10px;
+        margin-left: 6px;
       }
 
       .redfinir-senha:hover{
@@ -230,7 +233,8 @@
                   
       .card-2 a{
         text-decoration: none;
-        color:rgb(61, 172, 236)
+        color:rgb(61, 172, 236);
+        margin-left: 3px;
       }            
 
       .card-2 a:hover{
@@ -245,3 +249,28 @@
             justify-content: center;
         
       }
+form{
+      flex-direction: column;
+      align-items: center;
+         margin: 15px;
+      border-radius: 12px;
+      text-align: justify;
+      flex-wrap: wrap;
+}
+
+p{
+      color: rgb(255 255 255 / 82%);
+      font-size: 15px;
+      margin-bottom: 10px;
+      text-align: justify;
+      font-family: monospace;
+}
+
+.info-texto{
+      align-items: center;
+      text-align: center;
+}
+
+.autenticador{
+      width: 20px;
+}

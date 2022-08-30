@@ -5,53 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
+    <script src="https://js.hcaptcha.com/1/api.js" aync defers></script>
     <title>Tela de Login - CRM</title>
   </head>
   <body class="degrade">
     <div id="login" class="conteudo">
-      <div class="card">
-        <div class="img-bx">
+      <div class="card card-3">
+        <div class="img-bx" style="width: 442px; top: -8px">
           <img src="img/login-3.png" alt="Logo lydians" />
         </div>
         <div class="content">
           <div class="detail">
             <form method="post" action="">
+              <p>
+                Insira o seu e-mail e enviaremos um link para você voltar a
+                acessar a sua conta.
+              </p>
               <div class="inputBox">
                 <input
-                  type="text"
+                  type="email"
                   name="nome"
                   id="nome"
                   class="inputUser"
                   required="required"
                 />
-                <label for="nome" class="labelInput">Usuário</label>
+                <label for="nome" class="labelInput">E-mail</label>
               </div>
               <br />
-              <div class="inputBox">
-                <input
-                  type="password"
-                  id="senhaUsuario"
-                  required="required"
-                  class="inputUser"
-                />
-                <label for="nome" class="labelInput">Senha</label>
-              </div>
-              <br />
-              <div class="info-texto">
-                <a class="redfinir-senha" href="resetsenha.html"
-                  >Esqueci minha senha</a
-                >
-              </div>
-              <br />
+              <div
+                style="margin-left: 8px"
+                class="h-captcha"
+                data-sitekey="208af96e-21dc-4701-a4dc-47cea0aea22d"
+                required="required"
+              ></div>
               <div class="btlogar">
-                <button class="sci" type="submit">Conectar</button>
+                <button class="sci" type="submit">Enviar</button>
               </div>
             </form>
           </div>
         </div>
       </div>
-      <div class="card-2">
-        Não tem uma conta? <a href="cadastro.html">Cadastre-se</a>
+      <div class="card-2" style="width: 303px">
+        Tem uma conta? <a href="index.html">Conecte-se</a>
       </div>
     </div>
   </body>
